@@ -117,7 +117,6 @@ class Video(ShaderScene):
 
 # -------------------------------------------------------------------------------------------------|
 
-# Todo: Waveform Module
 class Audio(ShaderScene):
     """Basic audio processing"""
     __name__ = "Audio"
@@ -130,6 +129,18 @@ class Audio(ShaderScene):
                 fragColor = vec4(vec3(iAudioVolume), 1.0);
             }
         """)
+
+# -------------------------------------------------------------------------------------------------|
+
+class Waveform(ShaderScene):
+    """Audio Waveform Oscilloscope demo"""
+    __name__ = "Waveform"
+
+    def build(self):
+        ShaderScene.build(self)
+        self.audio = ShaderAudio(scene=self, name="Audio", file="/path/to/audio.ogg")
+        self.waveform = ShaderWaveform(scene=self, audio=self.audio)
+        self.shader.fragment = self.read_file("GLSL/Waveform.frag")
 
 # -------------------------------------------------------------------------------------------------|
 
