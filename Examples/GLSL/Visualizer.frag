@@ -4,7 +4,7 @@
 
 // Not proud of this shader :v
 void main() {
-    vec2 uv = iCamera.uv;
+    vec2 uv = iCamera.gluv;
     vec3 space = vec3(1, 11, 26) / 255;
 
     if (iCamera.out_of_bounds) {
