@@ -17,7 +17,7 @@
 
 Steps to contribute:
 - [**Fork this Repository**](https://github.com/BrokenSource/Scenes/fork) to your GitHub account
-- **Create** a Python Script and Assets/Work under `Community/$username/*`
+- **Create** a Python Script and Assets/Work under `/Scenes/$username/*`
 - **Commit** your changes to your fork
 - **Create** a Pull Request for Improvements, Fixes, New Features, etc.
 
@@ -33,10 +33,10 @@ Steps to contribute:
 
 # ⚖️ License
 
-THIS REPOSITORY'S MIT LICENSE ONLY APPLIES TO ANY NO-LICENSE-SPECIFIED FILE UNDER THE `EXAMPLES` DIRECTORY. EACH USER'S WORK UNDER THE `COMMUNITY` DIRECTORY IS LICENSED UNDER THEIR OWN TERMS AND CONDITIONS. THE SHADERFLOW CONTRIBUTORS AND MAINTAINERS ARE NOT RESPONSIBLE FOR ANY LEGAL ISSUES ARISING FROM THE USE OF THE `COMMUNITY` DIRECTORY FILES.
+EACH USER'S WORK IS LICENSED UNDER THEIR OWN TERMS AND CONDITIONS. THE SHADERFLOW CONTRIBUTORS AND MAINTAINERS ARE NOT RESPONSIBLE FOR ANY LEGAL ISSUES ARISING FROM THE USE OF THE SCENES.
 
-The ShaderFlow Maintainers might hotfix and port your files to newer versions and specifications of the Software without notice. You keep the rights to your work, and we will not claim any ownership over it.
+We might hotfix and port your files to newer versions and specifications of the Software without notice. You keep the rights to your work, and we will not claim any ownership over it.
 
-- 📜 **A Personal Note** from [**Tremeschin**](https://github.com/Tremeschin): I'm distributing ShaderFlow to the World - a many years project journey - free of charge, under a Copyleft License, for the greater good and availability of the Community. I comprehend the nuance and protectiveness of artistic work _versus_ the work I did, and I kindly ask you to consider using the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en)
+- 📜 **A Personal Note** from [**Tremeschin**](https://github.com/Tremeschin): I'm distributing ShaderFlow to the World - a many years project journey - free of charge, under a Copyleft License, for the greater good and availability of the Community. I comprehend the nuance and protectiveness of artistic work _versus_ the work I did, and I kindly ask you to consider using the [**CC BY 4.0 License**](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 </div>
